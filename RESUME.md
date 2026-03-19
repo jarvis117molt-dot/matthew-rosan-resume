@@ -8,28 +8,30 @@ I design, ship, and personally operate autonomous AI agents that manage real rev
 ---
 
 ## AI Agent Portfolio (Production Deployments)
-**JARVIS — Autonomous Chief of Staff (2026–Present)**  
-- OpenClaw-based agent orchestrating B&B revenue, Airbnb ops, guest comms, GitHub automation, and investment watchlists.  
-- Tool stack: Python, LangChain-adjacent OpenClaw runtime, GitHub Actions, Telegram Bot API, cron/launchd, Markdown knowledge graph.  
-- Runs pricing recalcs, guest concierge playbooks, SEO content pushes, and system health checks with audit logs and escalation routing.
+**JARVIS — OpenClaw Chief of Staff (2026–Present)**  
+- Telegram-first control plane I hit dozens of times per day; runs 40+ cron jobs for pricing recalcs, guest concierge flows, SEO pushes, investment monitors, and GitHub hygiene with full audit trails.  
+- Maintains the markdown memory graph, rotates secrets, restarts daemons, and routes anomalies into human-readable Telegram alerts so every deviation is escalated within minutes.
 
-**Polymarket Trading Desk Bot — Multi-Horizon Forecasting (2025–Present)**  
-- Autonomous agent that scores four time horizons (24h/7d/30d/180d), executes paper + live trades, reconciles against exchange fills, and syncs positions to Google Sheets via Service Account OAuth.  
-- Exposes RBAC-friendly dashboards for investors, with Telegram alerts, SQLite trade ledger, and cron-governed scheduling.
+**Polymarket Desk Bot — Multi-User Prediction Markets (2025–Present)**  
+- Hosted on Victor’s server; polls order books minute-by-minute, scores EV across 24h/7d/30d/180d horizons, and blasts actionable opportunities + fill confirmations into shared Telegram rooms.  
+- Syncs trades, bankroll deltas, and risk notes to Google Sheets via OAuth service accounts, runs midnight P&L summaries, and logs every action in SQLite for compliance.
 
-**Kalshi Execution Bot — Live Capital Deployment (2025–Present)**  
-- Mirrors Polymarket architecture for Kalshi event contracts with additional throttle + compliance checks for live USD capital.  
-- Integrates exchange APIs, Telegram approvals, and fail-safe rollbacks; enforces per-market exposure caps and generates audit-ready CSVs.
+**Kalshi Execution Bot — Real-Money Event Contracts (2025–Present)**  
+- Mirrors the Polymarket architecture for Kalshi’s exchange, enforcing per-market exposure caps and throttle rules before sending USD orders.  
+- Streams approvals, fills, and hedges into Telegram for multiple stakeholders and exports audit-ready CSVs + health checks every night.
 
-**SPY Iron Condor Agent — Options Income Engine (2024–Present)**  
-- Python + yfinance + IV Rank/VIX/ADX filters to select strikes, write trade plans, record fills in SQLite, and broadcast pre/post-trade packets to Telegram.  
-- Governance: deterministic cron cadence, risk guardrails, and immutable trade logs for supervisory review.
+**Brevo Email Campaign Orchestrator — B&B Revenue Engine (2024–Present)**  
+- Cron-governed sequences triggered off ThinkReservations data + manual tags; runs nurture, reactivation, and review-request campaigns without human touch.  
+- Uses Brevo’s API for personalization, keeps suppression lists in sync, and posts send metrics plus anomalies back to Telegram.
 
-**Google Sheets + GitHub Automation Layer**  
-- Built OAuth service-account pipeline (Python + gspread) powering reporting for trading bots and hospitality KPIs.  
-- All repos run Git-first with pull requests, automated testing, cron/launchd deployment manifests, and telemetry/memory files for traceability.
+**X / Social Automation Stack — Buffer + PinchTab (2024–Present)**  
+- Schedules daily posts for the American Guest House and Streamster accounts via Buffer’s API, refreshing queues and respecting per-profile limits automatically.  
+- PinchTab scrapers capture engagement, flag “needs human reply” moments into Telegram, and roll metrics into Sheets for weekly reporting.
 
----
+**SPY Iron Condor Scanner — Options Radar (2024–Present)**  
+- 9:15 AM EST cron job that calculates IV Rank, VIX trend, and ADX slope to surface paper-mode iron condor candidates, broadcasting the packet to Telegram.  
+- Persists every scan to SQLite, highlights “no-trade” conditions when guardrails fail, and supplies data for rolling backtests.
+
 
 ## Professional Experience
 **American Guest House — Operations Manager & Agentic Systems Owner** · Washington, DC · 2022–Present  
